@@ -51,6 +51,20 @@ return {
     "nvim-treesitter/nvim-treesitter",
     build = ":TSUpdate",
   },
+  -- https://github.com/nvim-treesitter/nvim-treesitter-textobjects
+  {
+    "nvim-treesitter/nvim-treesitter-textobjects",
+  },
+  -- https://github.com/chrisgrieser/nvim-various-textobjs
+  {
+    "chrisgrieser/nvim-various-textobjs",
+    event = "VeryLazy",
+    opts = {
+      keymaps = {
+        useDefaults = true,
+      },
+    },
+  },
   --- none-ls
   -- https://github.com/nvimtools/none-ls.nvim
   {
