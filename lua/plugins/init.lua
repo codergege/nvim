@@ -89,6 +89,14 @@ return {
   { "hrsh7th/cmp-cmdline" }, -- { name = 'cmdline' }
   -- common snippets
   { "rafamadriz/friendly-snippets" },
+  -- https://github.com/chrisgrieser/nvim-scissors
+  {
+    "chrisgrieser/nvim-scissors",
+    dependencies = "nvim-telescope/telescope.nvim",
+    opts = {
+      snippetDir = vim.fn.stdpath("config") .. "/snippets",
+    },
+  },
   -- https://github.com/folke/trouble.nvim
   { "folke/trouble.nvim" },
   --- UI

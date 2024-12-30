@@ -97,3 +97,4 @@ cmp.setup.cmdline(":", {
 })
 
 require("plugins.lang.cmp.luasnip")
+require("plugins.lang.cmp.scissors")

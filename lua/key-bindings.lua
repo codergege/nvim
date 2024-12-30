@@ -158,4 +158,15 @@ pluginKeys.mapTrouble = function()
   keymap("n", "<leader>lt", "<cmd>Trouble todo toggle<cr>", { desc = "Todo (Trouble)" })
 end
 
+-- snippets scissors
+pluginKeys.mapScissors = function(scissors)
+  keymap("n", "<leader>se", function()
+    scissors.editSnippet()
+  end, { desc = "Snippet: Edit" })
+  -- when used in visual mode, prefills the selection as snippet body
+  keymap({ "n", "x" }, "<leader>sa", function()
+    scissors.addNewSnippet()
+  end, { desc = "Snippet: Add" })
+end
+
 return pluginKeys

@@ -26,4 +26,4 @@ ls.config.set_config({
 -- https://github.com/rafamadriz/friendly-snippets/
 require("luasnip.loaders.from_vscode").lazy_load()
 -- custom
-require("luasnip.loaders.from_vscode").load({ paths = { "./my-snippets" } })
+require("luasnip.loaders.from_vscode").load({ paths = { "./snippets" } })
