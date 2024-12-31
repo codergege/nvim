@@ -121,9 +121,22 @@ return {
   -- { "lewis6991/gitsigns.nvim" },
   ---------- AI ----------
   -- https://github.com/luozhiya/fittencode.nvim
-  {
-    "luozhiya/fittencode.nvim",
-  },
+  -- {
+  --   "luozhiya/fittencode.nvim",
+  -- },
+  -- https://github.com/Exafunction/codeium.vim
+  -- {
+  --   "Exafunction/codeium.vim",
+  --   event = "BufEnter",
+  -- },
+  -- https://github.com/Exafunction/codeium.nvim
+  -- {
+  --   "Exafunction/codeium.nvim",
+  --   dependencies = {
+  --     "nvim-lua/plenary.nvim",
+  --     "hrsh7th/nvim-cmp",
+  --   },
+  -- },
   ---------- mini ----------
   -- https://github.com/echasnovski/mini.nvim
   { "echasnovski/mini.nvim", version = false },

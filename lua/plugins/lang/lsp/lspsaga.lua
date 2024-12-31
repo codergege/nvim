@@ -16,7 +16,7 @@ lspsaga.setup({
 -- Remove Redundant Virtual Text
 -- Fix: Not working
 vim.diagnostic.config({
-  virtual_text = false,
+  virtual_text = true,
 })
 
 -- keymap

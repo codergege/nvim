@@ -1,3 +1,5 @@
+- codedium 插件有问题
+
 ```lua
 -- 生成 clangd 的 compile_commands.json 文件
 keymap("n", "<leader>lc", "<cmd>!xmake project -k compile_commands --lsp=clangd<CR>")
