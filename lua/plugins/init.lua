@@ -116,13 +116,10 @@ return {
     "folke/todo-comments.nvim",
     dependencies = { "nvim-lua/plenary.nvim" },
   },
-  -- https://github.com/kylechui/nvim-surround
-  {
-    "kylechui/nvim-surround",
-    version = "*",
-    event = "VeryLazy",
-  },
   ---------- git ----------
   -- https://github.com/lewis6991/gitsigns.nvim
   -- { "lewis6991/gitsigns.nvim" },
+  ---------- mini ----------
+  -- https://github.com/echasnovski/mini.nvim
+  { "echasnovski/mini.nvim", version = false },
 }
