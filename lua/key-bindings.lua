@@ -175,4 +175,12 @@ pluginKeys.mapScissors = function(scissors)
   end, { desc = "Snippet: Add" })
 end
 
+-- fittencode
+pluginKeys.mapFittencode = function()
+  keymap("n", "<leader>as", "<cmd>Fitten start_chat<cr>")
+  keymap("n", "<leader>at", "<cmd>Fitten toggle_chat<cr>")
+  keymap({ "v" }, "<leader>ae", "<cmd>Fitten translate_text_into_english<cr>")
+  keymap({ "v" }, "<leader>ac", "<cmd>Fitten translate_text_into_chinese<cr>")
+end
+
 return pluginKeys

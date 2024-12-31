@@ -119,6 +119,11 @@ return {
   ---------- git ----------
   -- https://github.com/lewis6991/gitsigns.nvim
   -- { "lewis6991/gitsigns.nvim" },
+  ---------- AI ----------
+  -- https://github.com/luozhiya/fittencode.nvim
+  {
+    "luozhiya/fittencode.nvim",
+  },
   ---------- mini ----------
   -- https://github.com/echasnovski/mini.nvim
   { "echasnovski/mini.nvim", version = false },
