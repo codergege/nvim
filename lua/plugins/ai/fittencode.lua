@@ -34,8 +34,8 @@ fittencode.setup({
   keymaps = {
     inline = {
       ["<TAB>"] = "accept_all_suggestions",
-      ["<C-l>"] = "accept_line",
-      ["<C-k>"] = "accept_word",
+      ["<A-l>"] = "accept_line",
+      ["<A-k>"] = "accept_word",
       ["<C-Up>"] = "revoke_line",
       ["<C-Left>"] = "revoke_word",
       ["<A-\\>"] = "triggering_completion",
