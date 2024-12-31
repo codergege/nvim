@@ -121,9 +121,9 @@ return {
   -- { "lewis6991/gitsigns.nvim" },
   ---------- AI ----------
   -- https://github.com/luozhiya/fittencode.nvim
-  -- {
-  --   "luozhiya/fittencode.nvim",
-  -- },
+  {
+    "luozhiya/fittencode.nvim",
+  },
   -- https://github.com/Exafunction/codeium.vim
   -- {
   --   "Exafunction/codeium.vim",
