@@ -138,7 +138,7 @@ end
 
 -- lspsaga
 pluginKeys.mapLspsaga = function()
-  keymap({ "n", "t" }, "<A-f>", "<cmd>Lspsaga term_toggle<CR>")
+  -- keymap({ "n", "t" }, "<A-f>", "<cmd>Lspsaga term_toggle<CR>")
 end
 
 -- todo-comments
@@ -181,6 +181,11 @@ pluginKeys.mapFittencode = function()
   keymap("n", "<leader>at", "<cmd>Fitten toggle_chat<cr>")
   keymap({ "v" }, "<leader>ae", "<cmd>Fitten translate_text_into_english<cr>")
   keymap({ "v" }, "<leader>ac", "<cmd>Fitten translate_text_into_chinese<cr>")
+end
+
+-- toggleterm
+pluginKeys.mapToggleTerm = function()
+  keymap({ "n", "t" }, "<A-f>", "<cmd>ToggleTerm<CR>")
 end
 
 return pluginKeys

@@ -102,6 +102,9 @@ return {
   --- UI
   -- https://github.com/onsails/lspkind-nvim
   { "onsails/lspkind-nvim" },
+  ---------- Build System ----------
+  -- https://github.com/Civitasv/cmake-tools.nvim
+  -- { "Civitasv/cmake-tools.nvim" },
   ---------- Editing ----------
   -- https://github.com/numToStr/Comment.nvim
   { "numToStr/Comment.nvim" },
@@ -137,6 +140,9 @@ return {
   --     "hrsh7th/nvim-cmp",
   --   },
   -- },
+  ---------- Others ----------
+  -- https://github.com/akinsho/toggleterm.nvim
+  { "akinsho/toggleterm.nvim", version = "*", config = true },
   ---------- mini ----------
   -- https://github.com/echasnovski/mini.nvim
   { "echasnovski/mini.nvim", version = false },

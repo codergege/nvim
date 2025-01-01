@@ -83,3 +83,14 @@ vim.o.showmode = false
 vim.opt.clipboard = "unnamedplus"
 -- 配置默认 terminal
 -- vim.api.nvim_set_var("terminal_emulator", "wt")
+if is_win() then
+  -- 设置 shell 为 powershell
+  vim.o.shell = "powershell"
+  -- 设置 shellcmdflag 为 -command
+  vim.o.shellcmdflag = "-command"
+  -- 设置 shellquote 为双引号
+  -- 在 Lua 字符串中，双引号不需要转义，但我们需要确保它被正确传递给 Vim 选项
+  vim.o.shellquote = '"'
+  -- 设置 shellxquote（如果为空，则设置为 nil 或空字符串）
+  vim.o.shellxquote = ""
+end

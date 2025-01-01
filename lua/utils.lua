@@ -27,3 +27,7 @@ function _G.create_marksman_file()
     file:close()
   end
 end
+
+function _G.is_win()
+  return vim.fn.has("win32") == 1 or vim.fn.has("win64") == 1
+end
