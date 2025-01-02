@@ -20,6 +20,8 @@ return {
     "nvimdev/indentmini.nvim",
     event = "BufEnter",
   },
+  -- https://github.com/rcarriga/nvim-notify
+  { "rcarriga/nvim-notify" },
   ---------- File System ----------
   -- https://github.com/nvim-tree/nvim-tree.lua
   { "kyazdani42/nvim-tree.lua" },

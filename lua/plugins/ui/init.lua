@@ -12,3 +12,4 @@ end
 require("plugins.ui.bufferline")
 require("plugins.ui.lualine")
 require("plugins.ui.indentmini")
+require("plugins.ui.notify")
