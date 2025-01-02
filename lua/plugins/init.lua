@@ -102,6 +102,9 @@ return {
   --- UI
   -- https://github.com/onsails/lspkind-nvim
   { "onsails/lspkind-nvim" },
+  ---------- DAP ----------
+  -- https://github.com/mfussenegger/nvim-dap
+  -- { "mfussenegger/nvim-dap" },
   ---------- Build System ----------
   -- https://github.com/Civitasv/cmake-tools.nvim
   -- { "Civitasv/cmake-tools.nvim" },

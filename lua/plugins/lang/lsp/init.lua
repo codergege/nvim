@@ -20,6 +20,7 @@ mason.setup({
 -- 写了对应的配置文件后打开注释
 local servers = {
   "clangd",
+  "cmake",
   "lua_ls",
   "marksman",
   "rust_analyzer",

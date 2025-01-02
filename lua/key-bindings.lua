@@ -188,4 +188,23 @@ pluginKeys.mapToggleTerm = function()
   keymap({ "n", "t" }, "<A-f>", "<cmd>ToggleTerm<CR>")
 end
 
+-- dap
+-- pluginKeys.mapDap = function(dap)
+--   vim.keymap.set("n", "<leader>dc", function()
+--     dap.continue()
+--   end)
+--   vim.keymap.set("n", "<leader>ds", function()
+--     dap.step_over()
+--   end)
+--   vim.keymap.set("n", "<leader>di", function()
+--     dap.step_into()
+--   end)
+--   vim.keymap.set("n", "<leader>do", function()
+--     dap.step_out()
+--   end)
+--   vim.keymap.set("n", "<Leader>dd", function()
+--     dap.toggle_breakpoint()
+--   end)
+-- end
+
 return pluginKeys
