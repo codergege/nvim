@@ -124,6 +124,11 @@ return {
     "folke/todo-comments.nvim",
     dependencies = { "nvim-lua/plenary.nvim" },
   },
+  -- https://github.com/HakonHarnes/img-clip.nvim
+  {
+    "HakonHarnes/img-clip.nvim",
+    event = "VeryLazy",
+  },
   ---------- git ----------
   -- https://github.com/lewis6991/gitsigns.nvim
   -- { "lewis6991/gitsigns.nvim" },
