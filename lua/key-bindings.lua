@@ -116,8 +116,8 @@ pluginKeys.mapLsp = function(opt)
   keymap("n", "gi", vim.lsp.buf.implementation, opt)
   -- lspsaga hover
   keymap("n", "K", "<cmd>Lspsaga hover_doc<CR>", opt)
-  -- lspsaga outline
-  keymap("n", "go", "<cmd>Lspsaga outline<CR>", opt)
+  -- lspsaga outline(用 aerial 替代)
+  -- keymap("n", "go", "<cmd>Lspsaga outline<CR>", opt)
   ------ LSP Code action
   -- Rename
   -- keymap("n", "<leader>rn", vim.lsp.buf.rename, opt)
@@ -193,4 +193,8 @@ pluginKeys.mapImgClip = function()
   keymap("n", "<leader>p", "<cmd>PasteImage<CR>")
 end
 
+-- aerial
+pluginKeys.mapAerial = function()
+  keymap("n", "go", "<cmd>AerialToggle!<CR>")
+end
 return pluginKeys

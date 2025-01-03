@@ -129,6 +129,16 @@ return {
     "HakonHarnes/img-clip.nvim",
     event = "VeryLazy",
   },
+  -- https://github.com/stevearc/aerial.nvim
+  {
+    "stevearc/aerial.nvim",
+    opts = {},
+    -- Optional dependencies
+    dependencies = {
+      "nvim-treesitter/nvim-treesitter",
+      "nvim-tree/nvim-web-devicons",
+    },
+  },
   ---------- git ----------
   -- https://github.com/lewis6991/gitsigns.nvim
   -- { "lewis6991/gitsigns.nvim" },
