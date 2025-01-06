@@ -22,19 +22,19 @@
       },
       {
         "language": "c",
-        "path": "./c/c.json"
+        "path": "./c.json"
       },
       {
         "language": "cpp",
-        "path": "./cpp/cpp.json"
+        "path": "./cpp.json"
       },
       {
         "language": "lua",
-        "path": "./lua/lua.json"
+        "path": "./lua.json"
       },
       {
         "language": "rust",
-        "path": "./rust/rust.json"
+        "path": "./rust.json"
       },
       {
         "language": [
@@ -42,6 +42,10 @@
           "rmd"
         ],
         "path": "./markdown.json"
+      },
+      {
+        "language": "toml",
+        "path": "./toml.json"
       }
     ]
   }
